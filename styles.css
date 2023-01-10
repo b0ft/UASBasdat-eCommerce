@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif !important; */
+    font-family: "Poppins", sans-serif !important;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+/* body {
+  background-color: #f9e3d4;
+  background-color: #162340 !important;
+} */
+
+.navbar {
+    background-color: #162340 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: #facc92 !important; */
+}
+
+.navbar .logotitle {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 26px;
+}
+
+.navbar .nav-item {
+    font-size: 20px !important;
+}
+
+.icons i {
+    color: #f9e3d4;
+    margin: 0px 8px;
+}
+
+.bi-heart-fill {
+    font-size: 24px;
+}
+
+.bi-basket3-fill {
+    font-size: 26px;
+}
+
+.bi-person-fill {
+    font-size: 30px;
+}
+
+.bi:hover {
+    color: #ebb22d;
+}
+
+.homebg {
+    width: 100%;
+    /* background-color: #ebb22d; */
+    /* background-image: linear-gradient(to right, #d29914, #d79e19, #dba21e, #e0a723, #e5ac27, #e7af2d, #e9b233, #ebb539, #ebb741, #ecba48, #ecbc4f, #ecbe56); */
+    background-image: linear-gradient(
+        to bottom,
+        #d29914,
+        #d79e19,
+        #dba21e,
+        #e0a723,
+        #e5ac27,
+        #e7af2d,
+        #e9b233,
+        #ebb539,
+        #ebb741,
+        #ecba48,
+        #ecbc4f,
+        #ecbe56
+    );
+}
+.homebg2 {
+    /* max-width: 1500px; */
+    /* height: 700px; */
+    height: 700px;
+    display: flex;
+    justify-content: space-around !important;
+    padding-top: 100px;
+    padding-left: 125px;
+    padding-right: 50px;
+}
+
+.homebg img {
+    margin: 30px;
+}
+
+.homebg .texthome {
+    width: 500px;
+    /* text-align: center; */
+    margin: 150px 0px;
+}
+
+.texthome > h1 {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.texthome > span {
+    font-size: 22px;
+    color: #fffaf4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.texthome > p {
+    font-size: 20px;
+    color: #4d4d4d;
+    margin-bottom: 14px !important;
+    margin-top: 10px !important;
+}
+
+.btn1 {
+    border-radius: 20px !important;
+}
+
+.product {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 90px !important;
+    padding-bottom: 70px !important;
+}
+
+.product .productlist {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 50px !important;
+}
+
+.product > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 600 !important;
+    color: white;
+    padding: 20px 0;
+}
+
+.productlist > .card {
+    background-color: #ebb22d !important;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.card:nth-child(even) {
+    background-color: #ed8a12 !important;
+}
+
+.p2 > .card {
+    background-color: #ed8a12 !important;
+}
+
+.p2 > .card:nth-child(even) {
+    background-color: #ebb22d !important;
+}
+
+.productlist > .card:hover {
+    /* background-color: #edc059 !important; */
+    /* border-radius: 20px; */
+    box-shadow: 7px 7px #6c7c8c;
+    transform: translate(-5px, -5px);
+}
+
+.productlist > a {
+    /* background-color: #ebb22d !important; */
+    text-decoration: none;
+    color: #162340;
+}
+
+.card-body {
+    text-decoration: none;
+}
+
+.card-text {
+    font-weight: bold;
+}
+/* color: #636d76; */
+
+/* ABOUT SECTION CSS*/
+.about {
+    height: 500px;
+    background-color: #facc92;
+}
+
+.about > div {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-top: 60px !important;
+}
+
+.about > div > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 600 !important;
+    color: #162340;
+    padding: 20px 0;
+}
+
+/* Footer */
+.footer {
+    height: 100px;
+    padding-top: 40px;
+}
+
+.footer > h4 {
+    color: white;
+    text-align: center;
+}
+
+/* detai product */
+.detailproduct {
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: #162340 !important;
+    margin-top: 140px;
+    display: flex;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detailproduct .fotodetail {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    background-color: #ebb12e;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descri {
+    padding: 40px;
+}
+
+.descri > div > .price {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.fotodetail {
+    display: flex;
+    justify-content: center;
+}
+
+.fotodetail > img {
+    width: 400px;
+}
+
+.input-group-btn {
+    background-color: #ebb12e;
+    border-radius: 7px;
+}
+
+.center {
+    width: 200px;
+}
+
+.input-number {
+    background-color: #6c7c8c;
+    color: white;
+    border: #6c7c8c;
+    text-align: center;
+}
+
+.btn-warning {
+    width: 200px;
+    background-color: #ebb12e;
+    font-weight: bold !important;
+}
+
+.addcart {
+    position: absolute;
+    bottom: 0px !important;
+}
+
+/* Bagian Cart */
+
+.carttable {
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px !important;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.carttable > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+}
+
+.border-bottom > .col {
+    font-size: 20px !important;
+}
+
+.carttotal {
+    height: 150px;
+    border-radius: 20px;
+    background-color: #6c7c8c;
+    margin-top: 20px;
+}
+
+.bgbarang {
+    border-radius: 0 50% 50% 0;
+    height: 118px;
+    width: 110px;
+    background-color: #ebb12e;
+}
+
+.bgbarang > img {
+    width: 150px !important;
+    margin-top: -18px;
+    margin-left: 30px;
+}
+
+.titleproductcart {
+    margin-left: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+.inputt {
+    background-color: white;
+    color: #162340;
+}
+
+.input2 {
+    width: 150px;
+}
+
+.totalproduct {
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.col-3 > .remove {
+    color: rgb(255, 255, 255);
+}
+
+.remove2 {
+    border-radius: 10px;
+    padding: 5px 0px;
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* textarea{
+  border: 1px solid #162340 !important;
+} */
+
+/* Checkout */
+.checkout2 {
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 110px !important;
+    padding-right: 50px;
+}
+
+.checkout2 > div > form > h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+}
+
+.checkout2 > div > h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+}
+
+.checkout2 input,
+.checkout2 textarea,
+.eheh {
+    border: 1px solid #d29914 !important;
+}
+
+.yourorder {
+    border: 1px solid #162340;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inih {
+    width: 300px;
+    background-color: #162340;
+}
+
+.inih:hover {
+    background-color: #f09c32;
+    border-color: #f09c32;
+}
+
+/* home yg +-nya  */
+.plusmin {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+}
+
+.buang:hover {
+    color: rgb(248, 74, 74);
+}
+
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+    background-color: rgb(255, 255, 255);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+    background-color: #ebb12e;
+}
+
+.container1 input:checked ~ .checkmark:hover {
+    background-color: #d29914;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid #162340;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
